@@ -12,7 +12,8 @@ class Movie {
         $this->year = $year;
     }
     public function getMovie() {
-        $this->title . $this->author . $this->year . "<br>";
+       return $this->title . $this->author . $this->year . "<br>";
+
     }
 }
 
